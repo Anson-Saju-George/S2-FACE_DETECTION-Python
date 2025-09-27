@@ -1,8 +1,8 @@
 import cv2
 #from main import data,predict #(for model building)
 video_capture = cv2.VideoCapture(0)
-faceCascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 faceCascade = cv2.CascadeClassifier(r"haarcascade_frontalface_default.xml")
+# faceCascade = cv2.CascadeClassifier(r"C:/Users/HP-OMEN/Desktop/haarcascade_frontalface_default.xml")
 
 while True:
     ret, frame = video_capture.read()
