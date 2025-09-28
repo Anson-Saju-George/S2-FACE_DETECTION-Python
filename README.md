@@ -27,9 +27,12 @@ This repository contains a **Real-Time Face Detection System** developed during 
 
 ## 📁 Repository Structure
 ```
-├── README.md                                    # Project documentation
+├── README.md                                   # Project documentation
 ├── FaceDetectionLive.py                        # Main face detection script
 └── haarcascade_frontalface_default.xml         # Haar cascade classifier model
+└── screenshots                                  # Directory for storing screenshots
+    ├── detection_example1.png                   # Example screenshot 1
+    └── detection_example2.png                   # Example screenshot 2
 ```
 
 ## 💻 Code Implementation
@@ -174,6 +177,16 @@ This project provided hands-on experience with:
 - Adjust `scaleFactor` for better accuracy
 - Modify `minNeighbors` for detection sensitivity
 - Use threading for improved performance
+
+:
+
+### 📸 Screenshots
+
+#### Example 1 – Face Detection in Action
+![Face Detection Example 1](screenshots/SS-1.png)
+
+#### Example 2 – Multiple Faces Detected
+![Multiple Faces Detected Example 2](screenshots/SS-2.png)
 
 ## 📚 Academic Context
 This project was developed as part of the second semester curriculum, demonstrating:
