@@ -9,7 +9,7 @@ while True:
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     
     # Detect faces in the image
-    faces = faceCascade.detectMultiScale(gray,scaleFactor=1.1,minNeighbors=5,minSize=(30, 30))
+    faces = faceCascade.detectMultiScale(gray,scaleFactor=1.1,minNeighbors=8,minSize=(30, 30))
     
     print("Found {0} faces!".format(len(faces)))
     
